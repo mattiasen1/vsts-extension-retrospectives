@@ -16,6 +16,10 @@
     "noImplicitAny": true,
     "strictNullChecks": false,
     "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "paths": {
+      "react": [ "./node_modules/@types/react" ]
+    }
   },
   "exclude": [
     "node_modules"
